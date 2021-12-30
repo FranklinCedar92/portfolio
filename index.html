@@ -17,15 +17,15 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#about">About</a>
+                    <h3><a href="#about">About</a></h3>
                 </li>
 
                 <li>
-                    <a href="#projects">Projects</a>
+                    <h3><a href="#projects">Projects</a></h3>
                 </li>
 
                 <li>
-                    <a href="#contact">Contact</a>
+                    <h3><a href="#contact">Contact</a></h3>
                 </li>
 
             </ul>
@@ -35,22 +35,23 @@
 
     <!-- Photo and About Section -->
     <section  id="about" class="intro">
-        <h2>About</h2>
+        <h2 class="section-title">About</h2>
+        <div class="intro-content">
+            <div class="intro-img">
+                <img src="./assets/images/intro.jpg" alt="Franklin in a t-shirt"/>
+            </div>
 
-        <div>
-            <img src="./assets/images/5K3A2012.jpg" alt="Franklin in a t-shirt"/>
-        </div>
-
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem quas 
-                enim officia veritatis, et architecto quisquam molestiae sapiente ipsum 
-                delectus quis, culpa voluptas ipsam hic accusamus a reiciendis illo. 
-                Labore laudantium unde inventore assumenda deleniti qui consectetur, 
-                aliquid repudiandae, sed reprehenderit eum praesentium ullam magni nemo. 
-                Incidunt quidem dignissimos veritatis dolor officia consequuntur, soluta 
-                provident totam nisi, delectus minima in exercitationem quae expedita 
-                itaque dolorem id nemo nam earum quasi rerum? Assumenda eaque nihil 
-                voluptatum?</p>
+            <div class="intro-p">
+                <p><strong>Lorem</strong> ipsum dolor sit amet consectetur, adipisicing elit. Dolorem quas 
+                    enim officia veritatis, et architecto quisquam molestiae sapiente ipsum 
+                    delectus quis, culpa voluptas ipsam hic accusamus a reiciendis illo. 
+                    Labore laudantium unde inventore assumenda deleniti qui consectetur, 
+                    aliquid repudiandae, sed reprehenderit eum praesentium ullam magni nemo. 
+                    Incidunt quidem dignissimos veritatis dolor officia consequuntur, soluta 
+                    provident totam nisi, delectus minima in exercitationem quae expedita 
+                    itaque dolorem id nemo nam earum quasi rerum? Assumenda eaque nihil 
+                    voluptatum?</p>
+            </div>
         </div>
 
     </section>
@@ -58,67 +59,58 @@
 <!-- Projects Section -->
 
     <section id="projects" class="projects">
-        <h2>Projects</h2>
+        <h2 class="section-title">Projects</h2>
 
-        <div class="project-frame run-buddy">
-            <div>
-                <h3>
-                    <a href="https://franklincedar92.github.io/run-buddy/">Run Buddy</a>
-                </h3>
-            </div>
-            <div class="project-img">
-                <img src="./assets/images/RunBuddy.jpg" alt="Run Buddy preview"/>
-            </div>
-        </div>
+        <div class="projects-a">
 
-        <div class="project-frame">
-
-            <div>
-                <h3>
-                    <a href="https://franklincedar92.github.io/homework1/">Horiseon</a>
-                </h3>
+            <div class="projects-a1">
+                    <h3>Run Buddy</h3>                
+                <div class="run-img">
+                    <a href="https://franklincedar92.github.io/run-buddy/">
+                        <img src="./assets/images/RunBuddy.jpg" alt="Run Buddy preview"/>
+                    </a>
+                </div>
             </div>
-            <div class="project-img">
-                <img class="project-img" src="./assets/images/Horiseon.jpg" alt="Horiseon preview" />
-            </div>
-        </div>
+        
 
-        <div class="project-frame">
+            <div class="projects-a2">
 
-            <div>
-                <h3>Project 3</h3>
-            </div>
-            <div class="project-img">>
-                <img class="project-img" src="./assets/images/Leaf.JPG" alt="alocasia leaf" />
-            </div>
-        </div>
+                <div class="project">                   
+                        <h3>Horiseon</h3>                   
+                    <div class="project-img">
+                        <a href="https://franklincedar92.github.io/homework1/">
+                            <img src="./assets/images/Horiseon.jpg" alt="Horiseon preview" />
+                        </a>
+                    </div>
+                </div>
 
-        <div class="project-frame">
+                <div class="project">                   
+                        <h3>Project 3</h3>                  
+                    <div class="project-img">
+                        <a href="https://en.wikipedia.org/wiki/Alocasia">
+                            <img src="./assets/images/Alocasia.png" alt="alocasia leaf" />
+                        </a>
+                    </div>
+                </div>
 
-            <div>
-                <h3>Project 4</h3>
-            </div>
-            <div class="project-img">
-                <img class="project-img" src="./assets/images/Marsaba.jpg" alt="Marsaba monastery" />
-            </div>
-        </div>
+                <div class="project">                   
+                        <h3>Project 4</h3>                    
+                    <div class="project-img">
+                        <a href="http://visitpalestine.ps/">
+                            <img src="./assets/images/Marsaba_2.png" alt="Marsaba monastery" />
+                        </a>
+                    </div>
+                </div>
 
-        <div class="project-frame">
-
-            <div>
-                <h3>Project 5</h3>
-            </div>
-            <div class="project-img">
-                <img class="project-img" src="./assets/images/Wall.jpg" alt="brick wall" />
             </div>
         </div>
-
+                
     </section>
 
 <!-- Contact Section -->
 
     <section id="contact" class="contact">
-        <h2>Contact</h2>
+        <h2 class="section-title">Contact</h2>
 
         <div>
             <h3>Franklin Cedar Brown</h3>
@@ -131,13 +123,17 @@
                 e: <a href="mailto:franklin.c.brown@gmail.com">franklin.c.brown@gmail.com</a>
             </address>
         </div>
+        <br />
     </section>
 
     <!-- Footer -->
 
     <footer>
-        <h4>Made by Franklin Cedar Brown</h4>
-
+       
+        <div>
+             <h4>Made by Franklin Cedar Brown</h4>
+        </div>
+        
         <div>
             <h4>
                 <a href="#home">Home</a>
