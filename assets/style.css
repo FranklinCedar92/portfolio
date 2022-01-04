@@ -4,10 +4,6 @@ body {
     color: #2d2d2d;
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 a {
     text-decoration: none;
     color: #2d2d2d;
@@ -59,6 +55,10 @@ header nav ul li a:hover {
 
 h2 {
     padding: 0 15px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
